@@ -1,0 +1,119 @@
+{
+    "packages": [
+        {
+            "name": "Maixduino", 
+            "maintainer": "Bananapi",
+            "websiteURL": "https://maixduino.sipeed.com", 
+            "email": "support@sipeed.com",
+            "help": {
+                "online": "https://maixduino.sipeed.com"
+            }, 
+            "platforms": [
+                {
+                    "category": "K210",
+                    "name": "Maixduino(k210)",
+                    "version": "0.3.13",
+                    "architecture": "k210",
+                    "url": "https://github.com/ignaciocases/maix/raw/master/Maixduino_core_v0.3.11.zip",
+                    "checksum": "SHA-256:847b1d10f4a752ccc0cec8c016738837066c09b6555454abc6ae0c97226acfe0",
+                    "archiveFileName": "Maixduino_core_v0.3.13.zip",
+                    "size": "1925221",
+                    "boards": [
+                        {"name": "Sipeed Maix One Dock Board"},
+                        {"name": "Sipeed Maix Bit Board"},
+                        {"name": "Sipeed Maix Bit-Mic Board"},
+                        {"name": "Sipeed Maix Go Board"},
+                        {"name": "Sipeed Maixduino Board"},
+                        {"name": "LamLoei AIoT DaaN Board"},
+                        {"name": "Bananapi Rbxy Board"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Maixduino",
+                            "version": "8.2.0_20190409",
+                            "name": "riscv64-unknown-elf-gcc"
+                        },
+                        {
+                            "packager": "Maixduino",
+                            "version": "1.0.2",
+                            "name": "kflash"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "riscv64-unknown-elf-gcc", 
+                    "version": "8.2.0_20190409", 
+                    "systems": 
+                    [
+                        {
+                            "url": "https://raw.githubusercontent.com/ignaciocases/maix/master/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                            "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+                            "size": "48565570"
+                        }
+                    ]
+                },
+                {
+                    "name": "riscv64-unknown-elf-gcc", 
+                    "version": "8.2.0", 
+                    "systems": 
+                    [
+                        {
+                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/win/win_toolchain_v8.2.0_20190213.zip",
+                            "checksum": "SHA-256:9af21c336c8ccb405a10d715c480f29c5996d3932adf6955993ca4b10502b72b",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "win_toolchain_v8.2.0_20190213.zip",
+                            "size": "487337534"
+                        },
+                        {
+                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+                            "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "linux_kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+                            "size": "360536176"
+                        }
+                    ]
+                }, 
+                {
+                    "name": "openocd", 
+                    "version": "0.2.3", 
+                    "systems": 
+                    [
+                        {
+                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/win/win_kendryte-openocd-0.2.3-win32.zip",
+                            "checksum": "SHA-256:69f917de5535c807a9caaf8ec3e1411fc0ef3458ccf3354a11dde76031ca7b03",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "win_kendryte-openocd-0.2.3-win32.zip",
+                            "size": "12992801"
+                        },
+                        {
+                            "url": "http://dl.sipeed.com/MAIX/Maixduino/tools/linux/linux_kendryte-openocd-0.2.3-ubuntu64.tar.gz",
+                            "checksum": "SHA-256:1b2e12b9bae116aa30f6b47f2ffa473878229a2797a62630f19db2f53c08f2e6",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "linux_kendryte-openocd-0.2.3-ubuntu64.tar.gz",
+                            "size": "4478964"
+                        }
+                    ]
+                },
+                {
+                    "name": "kflash", 
+                    "version": "1.0.2", 
+                    "systems": 
+                    [
+                        {
+                            "url": "https://github.com/ignaciocases/maix/raw/master/linux_kflash_v1.0.2.zip",
+                            "checksum": "SHA-256:179a59d7d7e0f294b2e282fe807744912ed8d55edf5f9b05743bd27c354f36c5",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "linux_kflash_v1.0.2.zip",
+                            "size": "78313"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
